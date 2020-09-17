@@ -1,6 +1,6 @@
 <?php
 //https://stackoverflow.com/questions/61577868/read-json-with-php-from-instagram-a-1
-//github.com/paja-R
+//github.com/pajaar
 
 $user = "pajaar1337";
 $link = "https://instagram.com/".$user."?__a=1";
