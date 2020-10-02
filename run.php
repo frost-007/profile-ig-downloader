@@ -1,7 +1,7 @@
 <?php
 //https://stackoverflow.com/questions/61577868/read-json-with-php-from-instagram-a-1
 //github.com/pajaar
-$user = "pajaarx";
+$username = "pajaarx";
 $profileUrl = "https://instagram.com/{$username}?__a=1";
 $json = json_decode(@file_get_contents($profileUrl));
 
