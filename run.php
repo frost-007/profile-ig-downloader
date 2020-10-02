@@ -2,7 +2,7 @@
 //https://stackoverflow.com/questions/61577868/read-json-with-php-from-instagram-a-1
 //github.com/pajaar
 
-$user = "pajaar1337";
+$user = "pajaarx";
 $link = "https://instagram.com/".$user."?__a=1";
 //decode json
 $json = json_decode(file_get_contents($link));
