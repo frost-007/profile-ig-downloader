@@ -16,5 +16,5 @@ if (! $photo) {
 	exit("[!] Something went wrong...!");
 }
 file_put_contents("$username.jpg", $photo);
-exit("[i] Done!");
+exit("[i] Done $username.jpg saved");
 ?>
