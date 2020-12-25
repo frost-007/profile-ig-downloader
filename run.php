@@ -13,7 +13,7 @@ if (filter_var($profilePhotoUrl, FILTER_VALIDATE_URL) === false) {
 
 $photo = @file_get_contents($profilePhotoUrl);
 if (! $photo) {
-	exit("[!] Something went wrong...!");
+	exit("[!] Algo deu errado...!");
 }
 file_put_contents("$username.jpg", $photo);
 exit("[i] Done $username.jpg saved");
